@@ -1,0 +1,78 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  background-color: rgba(243, 7, 223, 0.2);
+}
+
+.App_header {
+  height: 200px;
+  background-image: url(./banner.jpg);
+}
+
+ .App_title {
+   text-align: center;
+   margin: 80px 0;
+  font-size: 2.5em;
+}
+
+.BkgColor {
+  margin-left: 50px;
+}
+/* select box style */
+.SelectBox {
+  border: 1px solid #ccc;
+  width: 120px;
+  background-color: #4ef18f;
+  border-radius: 3px;
+}
+
+.SelectBox select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  -webkit-appearance: none;
+}
+
+.SelectBox select:focus {
+  outline: none;
+}
+
+/* button style */
+a.TimeBtn {
+  display: inline-block;
+  background-color:#4ef18f;
+  padding:0.1em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  text-decoration:none;
+  font-weight:300;
+  color:black;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+  }
+  a.button4:hover{
+    border-color: rgba(255,255,255,1);
+  }
+
+/* display time style */
+.DisplayTime {
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+  @media all and (max-width:30em){
+   a.button4{
+      display:block;
+      margin:0.2em auto;
+   }
+  }
